@@ -1,0 +1,21 @@
+# Archivos de configuración del sistema o IDE
+*.log
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Base de datos local (si exportas .sql)
+*.sql
+
+# Archivos de configuración de PHP local o XAMPP
+*.ini
+
+# Evita subir datos sensibles
+.env
+config.php
+
+# Carpetas específicas
+/vendor/
+node_modules/
