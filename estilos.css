@@ -1,16 +1,31 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-image: url(https://previews.123rf.com/images/ssstocker/ssstocker1704/ssstocker170400086/76154548-horizontal-vector-background-store-shelves-with-groceries-products.jpg);
   margin: 0;
   padding: 20px;
 }
 
 h2 {
-  color: #2c3e50;
+  color: aqua;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 30px;
+}
+h3 {
+  color: rgb(15, 175, 175);
+  font-family: "Kaushan Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 30px;
 }
 
 form {
-  background-color: white;
+  background-image: url(https://img.freepik.com/vector-premium/interior-tienda-supermercado-productos-gran-centro-comercial-tienda-interior-interior-mostrador-pago-comestibles-bebidas-alimentos-frutas-productos-lacteos-ilustracion-vector-estilo-plano_169241-4555.jpg?semt=ais_hybrid&w=740);
   padding: 20px;
   border-radius: 10px;
   max-width: 500px;
@@ -32,11 +47,21 @@ input[type="submit"] {
 }
 
 input[type="submit"] {
-  background-color: #2980b9;
+  background-color: #190768;
   color: white;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
   background-color: #1abc9c;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
 }
