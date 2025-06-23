@@ -42,4 +42,45 @@ bash
 Copy
 Edit
 
+## 🧪 ¿Cómo probar el sistema?
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/dantesb777/tienda-php.git
+Copia la carpeta dentro de C:\xampp\htdocs\.
+
+Inicia Apache y MySQL desde XAMPP.
+
+Importa el archivo SQL de la base de datos (si lo tienes) desde phpMyAdmin.
+
+Accede desde tu navegador a:
+
+arduino
+Copy
+Edit
+http://localhost/tienda
+📈 Funcionalidades
+Módulo	Descripción
+Productos	Registro, edición y desactivación de productos
+Compras	Registro de compras con detalle por proveedor
+Ventas	Registro de ventas con detalle por cliente
+Consultas	Consultas por fechas y estados
+Kardex	Reporte de movimientos de inventario
+
+📊 Ejemplo de Kardex
+sql
+Copy
+Edit
++----------------+------------+---------+---------+-----------+
+| Tipo Movimiento| Fecha      | Producto| Cantidad| Subtotal  |
++----------------+------------+---------+---------+-----------+
+| Entrada        | 2025-06-21 | Café    | 10      | 100000    |
+| Salida         | 2025-06-22 | Café    | 6       |  90000    |
++----------------+------------+---------+---------+-----------+
+| SALDO FINAL: 4 unidades – $10,000 c/u promedio |
+📜 Licencia
+Este proyecto fue desarrollado con fines educativos por Daniel Osorio. Puedes modificarlo y reutilizarlo libremente.
+
+
 
